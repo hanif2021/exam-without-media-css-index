@@ -1,0 +1,904 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header_section css start here 
+================================= */
+.header_section{
+
+padding: 10px 0;
+}
+.logo{
+
+width: 55%;
+}
+.logo img{
+
+}
+.header_iteam{
+
+display: flex;
+
+margin-left: 75px;
+}
+.icon{
+    color: #F69165;
+    font-size: 25px;
+}
+.icon i{
+}
+.icon_des{
+    
+margin-left: 10px;
+}
+.icon_des h5{
+
+font-size: 17px;
+
+text-transform: capitalize;
+
+color: #363636;
+
+margin: 0;
+}
+.icon_des p{
+
+color: #a0a0a0;
+
+font-size: 13px;
+
+font-weight: 500;
+}
+/* header_section css end here ================
+=============================================== */
+
+/*======================= menu_section css start here====================*/
+.menu_section{
+
+background-color: #00cce1;
+}
+.menu_left{
+}
+.menu_right{
+
+display: flex;
+
+color: #fff;
+
+background-color: #f69165;
+
+width: fit-content;
+
+margin: 0 100px;
+
+font-weight: 500;
+}
+.menu_right:hover{
+    background-color: #f57d49;
+}
+
+.mr_icon{
+    margin: 0 10px;
+}
+.mr_icon i{
+
+}
+.menu_right p{
+
+margin-right: 15px;
+}
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    color: #fff;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.nav-link:focus, .nav-link:hover {
+    color: #fff;
+    background-color: #f69165;;
+}
+
+
+/* ====================================================================
+=======================================================================
+menu_section css end here  */
+
+/*======================= banner_section css start here====================*/
+.banner_section{
+    background-image: url(../images/banner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 90vh;
+    position: relative;
+}
+.banner_content{/* top: 50%; */}
+.banner_content h5{
+    
+background-color: #00cce1;
+    
+color: #fff;
+    
+text-transform: uppercase;
+    
+margin-top: 130px;
+    
+width: fit-content;
+    
+font-size: 30px;
+    
+font-weight: 600;
+    
+padding: 5px 15px;
+}
+.banner_content h1{
+    
+background-color: #f69165;
+    
+color: #fff;
+    
+text-transform: uppercase;
+    
+font-size: 35px;
+    
+font-weight: 700;
+    
+width: fit-content;
+    
+padding: 5px 15px;
+}
+.banner_content p{
+    margin-bottom: 30px;
+    font-weight: 500;
+    color: #a0a0a0;
+    font-size: 14px;
+    margin-top: 13px;
+}
+.btn-learnmore{
+
+background-color: #f69165;
+
+color: #fff;
+
+text-transform: uppercase;
+
+padding: 7px 12px;
+
+margin-right: 10px;
+
+border-radius: inherit;
+
+font-size: 14px;
+
+font-weight: 500;
+transition: .5s all ease-in-out;
+}
+.btn-learnmore:hover{
+    background-color: #00cce1;
+    color: #fff;
+}
+.btn-booknow{
+    
+background-color: #00cce1;
+    
+color: #fff;
+    
+text-transform: uppercase;
+    
+padding: 7px 12px;
+    
+margin-right: 10px;
+    
+border-radius: inherit;
+    
+font-size: 14px;
+    
+font-weight: 500;
+transition: .5s all ease-in-out;
+}
+.btn-booknow:hover{
+    background-color: #f69165;
+    color: #fff;
+}
+.banner_image{
+
+width: 41%;
+
+position: absolute;
+
+left: 53%;
+
+bottom: 0;
+}
+.banner_image img{
+    
+}
+/* ====================================================================
+=======================================================================
+banner_section css end here  */
+
+/*=========================== wdp_agency section css start here ==============
+============================================================================== */
+.wdp_agency{
+
+position: relative;
+
+padding: 70px 0;
+}
+.wdp_heading{
+
+}
+.wdp_heading h1{
+    
+font-size: 32px;
+    
+color: #000000;
+}
+.wdp_heading p{
+    color: #a0a0a0;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.wdp_service{
+}
+.wdp_s_image{
+    width: 8%;
+}
+.wdp_s_image img{
+    
+}
+.wdp_service h1{
+
+font-size: 20px;
+}
+.wdp_service p{
+
+color: #a0a0a0;
+
+font-size: 14px;
+}
+.wdp_image{
+
+position: absolute;
+
+width: 39%;
+
+bottom: 0;
+
+top: 10%;
+}
+.wdp_image img{
+    
+}
+
+
+/*=========================== wdp_agency section css end here ==============
+============================================================================== */
+
+
+/* ================== meet our doctor section css start here ===================
+=============================================================================== */
+.meet_our_doctor{
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 70px 0;
+}
+.common_heading{
+ text-align: center;
+}
+.common_heading h1{
+    
+text-transform: capitalize;
+    
+font-size: 32px;
+    
+margin: 0;
+    
+margin-bottom: 10px;
+}
+.common_heading img{
+    width: 4%;
+}
+.common_heading p{
+    
+color: #a0a0a0;
+    
+font-size: 14px;
+    
+margin-top: 10px;
+    
+font-weight: 500;
+}
+.doctor{
+
+text-transform: capitalize;
+
+border-bottom: 3px solid #00cce1;
+
+margin: 15px 0;
+
+position: relative;
+transition: .7s all ease-in-out;
+}
+.d_image{
+    position: relative;
+}
+.d_image img{
+    
+}
+.doctor h1{
+
+font-size: 22px;
+
+font-weight: 600;
+
+margin: 0;
+
+margin-top: 10px;
+transition: .4s all ease-in-out;
+}
+.doctor p{
+
+color: #a0a0a0;
+}
+.d_image ul{
+
+list-style: none;
+
+display: flex;
+
+position: absolute;
+
+top: 75%;
+
+left: 50%;
+
+transform: translateX(-50%);
+transition: .5s all ease-in-out;
+}
+.d_image ul li{
+    margin: 0 5px;
+    opacity: 0;
+    transition: .4s all ease-in-out; 
+}
+.doctor:hover .d_image ul li{
+    margin: 0 4px;
+
+    opacity: 1;
+    background-color:transparent;
+}
+.d_image ul li i{
+    border: 1px solid #fff;
+    padding: 5px;
+    color: #fff;
+    transition: .4s all ease-in-out; 
+}
+.d_image::before{
+    content: '';
+    background-color: #454545;
+    opacity: 0;
+    height:0;
+    width:100%;
+    top: 0;
+    position: absolute;
+    transition: .4s all ease-in-out;
+}
+.doctor:hover .d_image::before{
+    opacity: .7;
+    height: 100%;
+}
+.doctor:hover{
+    border-bottom: 3px solid #F69165;
+    
+}
+.doctor:hover h1{
+    color:  #F69165;
+}
+.d_image:hover .d_image ul li{
+    background-color: #F69165;  
+}
+
+ .d_image ul li i:hover{
+    background-color: #F69165;
+}
+.doctor:hover .d_image ul{
+    top: 55%;
+}
+/* ================== meet our doctor section css end here ===================
+=============================================================================== */
+
+
+ /*===================== our service section css start here ==================== 
+ =============================================================================== */
+.our_service{
+
+padding: 50px 0;
+}
+.service{
+
+border: 3px solid #e7e7e7;
+
+padding: 15px 7px;
+
+margin-top: 25px;
+transition: .4s all ease-in-out;
+}
+.s_heading{
+
+display: flex;
+
+text-transform: capitalize;
+
+margin-bottom: 8px;
+}
+.sh_image{
+
+width: 8%;
+}
+.sh_image img{
+    
+
+}
+.s_heading h1{
+    
+font-size: 22px;
+    
+margin-left: 8px;
+transition: .4s all ease-in-out;
+}
+.service:hover .s_heading h1{
+    color: #F69165;
+}
+.service p{
+
+font-size: 14px;
+
+color: #a0a0a0;
+}
+.btn-readmore{
+    
+text-transform: capitalize;
+    
+padding: 0;
+    
+font-weight: 600;
+    
+transition: .4s all ease-in-out;
+    
+color: #6f6e6e;
+    
+font-size: 14px;
+}
+.fa, .fas {
+    font-weight: 600;
+}
+.btn-readmore a  i{
+
+}
+.service:hover .btn-readmore{
+    color: #F69165;
+}
+.service:hover{
+    border: 3px solid #F69165;
+}
+
+  /*===================== our service section css end here ==================== 
+ =============================================================================== */
+
+
+    /*===================== our pricing section css start here ==================== 
+ =============================================================================== */
+.pricing_section{
+    background-color: #f9f9f9;
+    padding: 70px 0;
+}
+ .price{
+
+border: 4px solid #fff;
+
+text-align: center;
+
+padding: 25px 0;
+transition: .5s all ease-in-out;
+}
+.p_heading{
+
+text-transform: capitalize;
+}
+.p_heading h1{
+    font-size: 30px;
+    color: #00cce1;
+    transition: .5s all ease-in-out;
+}
+.p_heading p{
+    color: #a0a0a0;
+}
+.amount{
+
+background: #fff;
+
+text-transform: capitalize;
+
+color: #00cce1;
+transition: .5s all ease-in-out;
+}
+.amount h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+.amount p{
+}
+.p_description{
+
+}
+.p_description p{
+    
+color: #a0a0a0;
+    
+font-weight: 500;
+    
+margin-bottom: 25px;
+}
+.btn-singin{
+
+background: #00cce1;
+
+color: #fff;
+
+padding: 4px 26px;
+
+text-transform: uppercase;
+
+border-radius: inherit;
+
+font-weight: 500;
+
+transition: .5s all ease-in-out;
+
+font-size: 14px;
+}
+.price:hover {
+    border-color: #F69165;
+}
+.price:hover .p_heading h1{
+    color: #F69165;
+}
+.price:hover .amount{
+    color:#fff;
+    background-color:#F69165 ;
+}
+.price:hover .btn-singin{
+    color:#fff;
+    background-color:#F69165 ;
+}
+
+  
+   /*===================== our pricing section css end here ==================== 
+ =============================================================================== */
+
+
+/*===================== our client section css enstart here ==================== 
+ =============================================================================== */
+ .our_client{
+     background:linear-gradient(#000000b5,#000000b5 ), url(../images/Testimonial_bg.png);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     min-height: 60vh;
+     background-color: #454545;
+     padding: 36px 0;
+ }
+ .our_client .common_heading{
+    text-align: center;
+    margin-bottom: 50px;
+   }
+   .our_client .common_heading h1{
+       text-transform: capitalize;
+       font-size: 32px;
+       margin: 0;
+       margin-bottom: 10px;
+       color: #fff;
+   }
+   .our_client .common_heading img{
+
+   }
+   .our_client .common_heading p{
+       color: #fff;
+       font-size: 14px;
+       margin-top: 10px;
+       font-weight: 500;
+   }
+ .client{
+    
+display: flex;
+    
+justify-content: space-around;
+ }
+ .client_image{
+     color: #fff;
+     width: 70%;
+ }
+ .client_image img{
+    color: #fff;
+    /* margin: 0 12px; */
+    width: 10%;
+    margin-left: 50px;
+    padding: 0px 4px;
+}
+.col-md-2 {
+    flex: 0 0 auto;
+    width: auto;
+}
+
+ /*===================== our client section css end here ==================== 
+ =============================================================================== */
+
+
+  /*===================== dental plus section css start here ==================== 
+ =============================================================================== */
+ .dental_plus{
+     background-color: #191919;
+ }
+ .dp_content{
+
+padding: 70px 0;
+
+}
+ .content_one{
+
+color: #fff;
+
+}
+ .c_image{
+
+ }
+ .c_image{width: 47%;margin-bottom: 30px;}
+.content_one h6{
+
+color: #adadad;
+
+font-size: 14px;
+
+margin-bottom: 30px;
+}
+.content_one ul{
+
+list-style: none;
+
+padding: 0;
+}
+.content_one ul li{
+
+display: flex;
+
+margin-bottom: 15px;
+}
+.content_one ul li i{
+
+font-size: 22px;
+
+margin-right: 8px;
+
+color: #00cce1;
+
+padding: 6px 0;
+}
+.content_one ul li p{
+
+margin: 0;
+
+font-size: 12px;
+
+color: #adadad;
+
+font-weight: 500;
+}
+.content_two{
+
+}
+.ct_heading{
+
+}
+.ct_heading h5{
+    
+color: #fff;
+    
+text-transform: capitalize;
+    
+font-size: 24px;
+    
+margin-bottom: 30px;
+}
+.post{
+
+display: flex;
+
+margin-bottom: 25px;
+}
+.p_image{
+
+width: 35%;
+
+margin-right: 15px;
+}
+.p_image img{
+    
+}
+.p_des{
+}
+.p_des h6{
+
+margin: 0;
+
+color: #adadad;
+
+font-size: 12px;
+
+margin-bottom: 7px;
+}
+.p_des p{
+
+margin: 0;
+
+font-size: 12px;
+
+color: #6f6e6e;
+
+font-weight: 500;
+}
+.content_three{
+
+}
+.content_three .ct_heading{
+
+}
+.content_three .ct_heading h5{
+    
+}
+.con_des{
+
+}
+.con_des h6{
+    
+color: #adadad;
+    
+font-size: 14px;
+    
+margin-bottom: 30px;
+    
+line-height: 22px;
+    
+font-weight: 500;
+}
+.signup{
+
+}
+.signup form{
+
+margin-bottom: 30px;
+}
+.signup form input{
+
+background: none;
+
+color: #adadad;
+
+font-size: 14px;
+
+border: none;
+
+border: 1px solid #393a3a;
+
+height: fit-content;
+
+font-weight: 600;
+
+width: 70%;
+}
+.signup form input:focus{
+    background: transparent;
+    box-shadow: none;
+}
+.signup form button{
+
+
+}
+.btn-signup{
+    background: #F69165;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: initial;
+    transition: .4s all ease-in-out;
+}
+.btn-signup:hover{
+    color: #fff;
+    background-color: #00cce1;
+}
+.follow{
+
+display: flex;
+
+color: #fff;
+}
+ .follow h3{
+    
+font-size: 17px;
+    
+text-transform: capitalize;
+    
+margin-right: 15px;
+}
+.follow_icon{
+}
+.follow_icon i{
+    border: 1px solid #191919;
+    margin-right: 3px;
+    font-size: 13px;
+    padding: 5px;
+    background: #383333;
+    transition: .4s all ease-in-out;
+}
+.follow_icon i:hover{
+    background-color: #F69165;
+}
+ /*===================== dental plus section css end here ==================== 
+ =============================================================================== */
+
+
+ /*===================== footer section css start here ==================== 
+ =============================================================================== */
+ .footer_section{
+
+background: #000;
+
+text-align: center;
+
+color: #fff;
+
+text-transform: capitalize;
+
+padding: 15px 0;
+
+}
+ .footer_section p{
+     
+color: #6f6e6e;
+     
+font-weight: 500;
+     
+font-size: 14px;
+}
+.footer_section p span{
+     
+color: #00cce1;
+}
+.owl-dots span {
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    display: inline-block;
+    background: #adabab;
+    margin: 0 3px;
+}
+.owl-dots .active span{
+    background: #F69165;
+}
+.owl-dots{
+    text-align: center;
+    margin-left: 6%;
+    margin-top: 5%;
+}
+.owl-nav{
+    display: none;
+}
+
+ /*===================== footer section css end here ==================== 
+ =============================================================================== */

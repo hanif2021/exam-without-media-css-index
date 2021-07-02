@@ -1,0 +1,134 @@
+@media(min-width:0px) and (max-width:575px){
+    .icon {
+        font-size: 15px;
+    }
+    .icon_des h5 {
+        font-size: 12px;
+    }
+    .icon_des p { 
+        font-size: 10px;
+        
+    }
+    .logo {
+        width: 80%;
+    }
+    .header_iteam{
+        margin: 0;
+    }
+    .nav-link {
+        font-size: 13px;
+        margin: 0;
+        padding: 0;
+        margin: 10px 10px;
+    }
+    .mr_icon {
+        margin: 0;
+        margin-right: 5px;
+        margin-left: 5px;
+        font-size: 14px;
+        padding: 5px 0;
+    }
+    .menu_right {
+
+        margin: 0;
+        padding: 1px 2px;
+    }
+    .menu_right p {
+        margin-right: 0;
+        font-size: 13px;
+        padding: 5px 5px;
+    }
+    .banner_image {
+        
+        display: none;
+    }
+    .banner_content h5 {
+        font-size: 20px;
+        margin-left: 30%;
+    }
+    .banner_content h1 {
+        font-size: 28px;
+        
+        margin-left: 18%;
+    }
+    .banner_content {
+        text-align: center;
+    }
+    .wdp_image {
+        display: none;
+    }
+    .wdp_heading {
+        text-align: center;
+    }
+    .wdp_heading h1 {
+        font-size: 28px;
+    }
+    .wdp_service h1 {
+        font-size: 18px;
+    }
+    .wdp_service p {
+        
+        font-size: 12px;
+    }
+    .common_heading h1 {
+        font-size: 28px;
+        
+    }
+    .doctor {
+        padding: 20px 5px;
+        margin-bottom: 20px;
+    }
+    .doctor h1 {
+        font-size: 16px;
+        
+    }
+    .doctor p {
+        font-size: 14px;
+    }
+    .s_heading h1 {
+        font-size: 18px;
+    }
+    .service p {
+        font-size: 12px;
+       
+    }
+    .btn-readmore {
+        
+        font-size: 12px;
+    }
+    .p_heading h1 {
+        font-size: 24px;
+    }
+    .p_heading p {
+        font-size: 13px;
+    }
+    .amount h1 {
+        font-size: 24px;
+    }
+    .amount p {
+        font-size: 13px;
+    }
+    .price {
+        margin: auto;
+        margin-bottom: 20px;
+        width: 60%;
+    }
+    .p_description p {
+        
+        font-weight: 400;
+        margin-bottom: 20px;
+        font-size: 13px;
+    
+    }
+    .client_image {
+        width: 100%;
+    }
+    .content_one {
+        color: #fff;
+        width: 60%;
+        margin-left: 10%;
+    }
+        
+
+
+}
